@@ -1,0 +1,143 @@
+*{
+    /* background-color: #fcdcea;  */
+    /* background-color: #ffffff;  */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h1{
+    color: #FF5072;
+}
+
+.nav{
+    height: 4rem;
+    /* background-color: aqua; */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-left: 7.5rem;
+}
+
+.nav-blank{
+    height:4rem;
+    width: 70%;
+    /* background-color: #FF5072; */
+    /* flex: 1; */
+}
+
+.nav-items{
+    height: 4rem;
+    width: 30%;
+    /* background-color: white; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-right:1rem; */
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.n-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    /* background-color:red ; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 1.5rem; */
+    
+
+}
+
+.n-icon:hover{
+    background-color: rgb(194, 194, 194);
+
+}
+
+.nav-profile{
+    height : 2rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+
+
+.content{
+    height: 13.5rem;
+    /* background-color: rgb(247, 102, 102); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    /* background-color: red; */
+    width:17.9rem;
+    padding-top: 5rem;
+}
+
+.content img{
+    height:6rem;
+}
+
+.search{
+    height:5rem;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+.search-box{
+    height: 2.5rem;
+    border-radius: 3rem;
+    width: 40rem;
+    padding-left:3rem ;
+    box-shadow: 0.25px 0.25px 7px 0.25px rgb(0, 0, 0);
+    
+
+}
+
+.shortcut{
+    height:7rem;
+    /* background-color: cadetblue; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sct-items{
+    margin-right: 2rem;
+    /* margin-left: 1rem; */
+    background-color:#dbcccf;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+/* 
+.footer{
+    display: flex;
+    flex:1;
+} */
+
+
+input{
+    outline: none;
+}
+
